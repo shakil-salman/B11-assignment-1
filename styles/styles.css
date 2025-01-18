@@ -17,6 +17,12 @@
     font-style: normal;
 }
 
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* banner styles */
 .banner {
     display: flex;
@@ -64,4 +70,97 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 24px;
+}
+
+/* vision-style */
+.visions {
+    width: 1500px;
+    height: 560px;
+    margin: 120px 16px 80px 160px;
+}
+    
+.section-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-description .vision-description {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    width: 1280px;
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-1 {
+    width: 450px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.vision-2 {
+    width: 450px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+
+}
+
+.vision-3 {
+    width: 450px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+.btn-secondary-1 {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+}
+.btn-secondary-2 {
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 48px;
+}
+.btn-secondary-3 {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 40px;
 }
